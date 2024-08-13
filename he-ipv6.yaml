@@ -3,10 +3,10 @@ network:
   tunnels:
     he-ipv6:
       mode: sit
-      remote: 64.71.156.86
-      local: 5.78.67.24
+      remote: 216.218.221.6
+      local: 104.198.191.165
       addresses:
-        - "2001:470:1f1e:56::2/64"
+        - "2001:470:18:b39::2/64"
       routes:
         - to: default
-          via: "2001:470:1f1e:56::1"
+          via: "2001:470:18:b39::1"
